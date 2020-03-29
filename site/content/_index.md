@@ -1,6 +1,5 @@
 ---
 title: "Dabeisein ist alles"
-subtitle: Support sustainable farming while enjoying a cup
+subtitle: 
 image: /img/home-jumbotron.jpg
 ---
-
