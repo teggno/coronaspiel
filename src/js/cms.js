@@ -1,5 +1,6 @@
 import React from "react";
 import CMS from "netlify-cms-app";
+import { de } from "netlify-cms-locales";
 
 // Import main site styles as a string to inject into the CMS preview pane
 import styles from "!to-string-loader!css-loader!postcss-loader!sass-loader!../css/main.css";
@@ -16,4 +17,5 @@ CMS.registerPreviewTemplate("post", PostPreview);
 CMS.registerPreviewTemplate("products", ProductsPreview);
 CMS.registerPreviewTemplate("values", ValuesPreview);
 CMS.registerPreviewTemplate("contact", ContactPreview);
+CMS.registerLocale("de", de);
 CMS.init();
