@@ -47,5 +47,11 @@ teilnehmer:
   - punkte: 0
     name: Verena+Bruno Wacker
   - punkte: 0
+    name: Regula+Franco Monferini
+  - punkte: 0
+    name: Urs Affentranger
+  - punkte: 0
+    name: Gina+Bruno Meier
+  - punkte: 0
     name: Lilly+Raffaele
 ---
