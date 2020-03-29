@@ -53,5 +53,7 @@ teilnehmer:
   - punkte: 0
     name: Peter Beranek
   - punkte: 0
+    name: CS (Susanne Ruch+Christian Forster)
+  - punkte: 0
     name: Lilly+Raffaele
 ---
