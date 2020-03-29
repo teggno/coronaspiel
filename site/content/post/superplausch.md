@@ -1,5 +1,5 @@
 ---
-title: Superplausch
+title: Beispielartikel
 date: 2020-03-29T12:34:14.815Z
 ---
-Ein toller Text. Sogar mit **fett**.
+Dies ist der Text des Beispielartikels. Sogar mit Text, der **fett** formatiert ist.
