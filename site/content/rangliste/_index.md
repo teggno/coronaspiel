@@ -29,8 +29,6 @@ teilnehmer:
   - punkte: 0
     name: Heidi+Roger Blatter
   - punkte: 0
-    name: Peter Berankek
-  - punkte: 0
     name: Made+Donato Carrieri
   - punkte: 0
     name: Antonia+Rolf Weigel
@@ -52,6 +50,8 @@ teilnehmer:
     name: Urs Affentranger
   - punkte: 0
     name: Gina+Bruno Meier
+  - punkte: 0
+    name: Peter Beranek
   - punkte: 0
     name: Lilly+Raffaele
 ---
