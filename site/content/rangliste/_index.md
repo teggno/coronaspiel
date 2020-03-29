@@ -60,4 +60,6 @@ teilnehmer:
     name: Zeljko Berger
   - punkte: 0
     name: Eva+Markus Heitz
+  - punkte: 0
+    name: Emma+Christian Bär
 ---
