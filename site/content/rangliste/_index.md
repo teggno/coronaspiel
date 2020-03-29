@@ -56,4 +56,8 @@ teilnehmer:
     name: CS (Susanne Ruch+Christian Forster)
   - punkte: 0
     name: Lilly+Raffaele
+  - punkte: 0
+    name: Zeljko Berger
+  - punkte: 0
+    name: Eva+Markus Heitz
 ---
