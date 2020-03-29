@@ -1,5 +1,5 @@
 ---
-title: "Dabeisein ist alles"
+title: ""
 subtitle: 
 image: /img/home-jumbotron.jpg
 ---
