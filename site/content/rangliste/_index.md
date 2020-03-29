@@ -4,8 +4,48 @@ type: rangliste
 image: /img/products-jumbotron.jpg
 date: 2020-03-29T12:34:14.815Z
 teilnehmer:
-  - punkte: -77
-    name: Hans Muster
-  - punkte: 1222
-    name: Fritz Meier
+  - punkte: 0
+    name: Kurt Meier
+  - punkte: 0
+    name: Fritz Gschwend
+  - punkte: 0
+    name: Koni+Sylvia
+  - punkte: 0
+    name: Tanino Liotta
+  - punkte: 0
+    name: Von Känel Peter
+  - punkte: 0
+    name: Erika+Geni Gremli
+  - punkte: 0
+    name: Chaschtä+Nunzia Carrieri
+  - punkte: 0
+    name: René Benz
+  - punkte: 0
+    name: Severin Stucky
+  - punkte: 0
+    name: Katy+Urs Näf
+  - punkte: 0
+    name: Baggerstubä
+  - punkte: 0
+    name: Heidi+Roger Blatter
+  - punkte: 0
+    name: Peter Berankek
+  - punkte: 0
+    name: Made+Donato Carrieri
+  - punkte: 0
+    name: Antonia+Rolf Weigel
+  - punkte: 0
+    name: Stefania+Christian Zingg
+  - punkte: 0
+    name: 'Zac '
+  - punkte: 0
+    name: Speranza+Edwin Steuble
+  - punkte: 0
+    name: dog (Stefan Werner)
+  - punkte: 0
+    name: Alex+Mario
+  - punkte: 0
+    name: Verena+Bruno Wacker
+  - punkte: 0
+    name: Lilly+Raffaele
 ---
