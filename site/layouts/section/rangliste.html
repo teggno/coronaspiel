@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+  <h1 class="center tc f2 pa2">Rangliste</h1>
+  <div class="center grey-3 tc">
+    <p class="center tc">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+  </div>
+  <table class="collapse center">
+    <tbody>
+    {{ range .Params.rangliste }}
+      {{ partial "teilnehmer" . }}
+    {{ end }}
+    </tbody>
+  </table>
+
+
+{{ end }}
