@@ -4,6 +4,10 @@
   <div class="center grey-3 tc">
     <p class="center tc">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
   </div>
+
+  <div id="autoRankingList">
+
+  </div>
   <table class="collapse center">
     <tbody>
     {{ range .Params.teilnehmer }}
@@ -12,5 +16,17 @@
     </tbody>
   </table>
 
+  <script>
+    (function() {
+      var container = document.getElementById("autoRankingList")
+      fetch("https://dabeiseinistalles.blob.core.windows.net/data/prices.json")
+        .then(res => res.json())
+        .then(prices => {
+          console.log(prices.length)
+          // container.innerHTML = prices[0].valorSymbol
+        })
+
+    })()
+  </script>
 
 {{ end }}
