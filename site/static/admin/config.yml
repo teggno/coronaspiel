@@ -38,16 +38,4 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - { label: Titel, name: title, widget: string }
           - { label: "Datum", name: "date", widget: "datetime" }
-          - label: "Teilnehmer"
-            name: "teilnehmer"
-            widget: "list"
-            fields:
-              - label: Name
-                name: name
-                widget: string
-              - label: "Punkte"
-                name: "punkte"
-                widget: "number"
-                default: 0
-                valueType: "int"
-                step: 1
+          - { label: "Bild", name: "image", widget: "image", required: false }
