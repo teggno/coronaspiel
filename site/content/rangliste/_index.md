@@ -68,4 +68,6 @@ teilnehmer:
     name: Markus Lüthi
   - punkte: 0
     name: Andy Hermann
+  - punkte: 0
+    name: Inge Berger
 ---
