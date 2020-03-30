@@ -4,10 +4,17 @@
   <div class="center grey-3 tc">
     <p class="center tc">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
   </div>
+  <div id="myBet" class="pa2" style="position: fixed; top: 20px; right:20px; background-color: rgb(250, 250, 250);">
+    <div><div>SYMBOL 1</div><div><input id="t1" name="t1"></div></div>
+    <div><div>SYMBOL 2</div><div><input id="t2" name="t2"/></div></div>
+    <div><div>SYMBOL 3</div><div><input id="t3" name="t3"/></div></div>
+    <div><div>SYMBOL 4</div><div><input id="t4" name="t4"/></div></div>
+  </div>
 
   <div id="autoRankingList">
 
   </div>
+
 
   <table class="collapse center">
     <tbody>
@@ -103,42 +110,47 @@
               }).length + 1
       }
 
+      function myBet() {
+        var myBetElement = document.getElementById("myBet")
+
+      }
+
       function getBets() {
-        var raw = [["Kurt Meier","Logn","fhzn","RO","Uhr"],
-["Fritz gschwend", "ams","RO","oerl","abbn"],
+        var raw = [["Kurt Meier","Logn","fhzn","ROG","Uhr"],
+["Fritz gschwend", "ams","ROG","oerl","abbn"],
 ["Koni+Silvia","scmn","novn","logn","csgn"],
 ["Liotta","fhzn","soon","UBSG","AUTN"],
 ["Von Känel","UBSG","novn","Uhr","nesn"],
-["Geni+Erika","novn","CFR","RO","soon"],
-["Chaschtä","nesn","kud","novn","RO"],
-["René Benz","novn","nesn","RO","STMN"],
-["Severin stucki","nesn","RO","zurn","temn"],
+["Geni+Erika","novn","CFR","ROG","soon"],
+["Chaschtä","nesn","kud","novn","ROG"],
+["René Benz","novn","nesn","ROG","STMN"],
+["Severin stucki","nesn","ROG","zurn","temn"],
 ["Urs+Katy","fhzn","DUFN","valn","Ams"],
-["Baggerstubä","csgn","novn","nesn","RO"],
-["Roger+Heidi","RO","LOGN","STMN","temn"],
-["Made+Donato","nesn","RO","novn","valn"],
-["Antonia+Rolf","csgn","RO","temn","nesn"],
-["Zingg","csgn","RO","zurn","abbn"],
+["Baggerstubä","csgn","novn","nesn","ROG"],
+["Roger+Heidi","ROG","LOGN","STMN","temn"],
+["Made+Donato","nesn","ROG","novn","valn"],
+["Antonia+Rolf","csgn","ROG","temn","nesn"],
+["Zingg","csgn","ROG","zurn","abbn"],
 ["Zac","novn","LOGN","zurn","scmn"],
-["Steuble","RO","csgn","scmn","zurn"],
+["Steuble","ROG","csgn","scmn","zurn"],
 ["Dog","Uhr","kud","AUTN","valn"],
-["Alex+Mario","novn","RO","scmn","valn"],
-["Bruno+Verena","zurn","UBSG","RO","kud"],
+["Alex+Mario","novn","ROG","scmn","valn"],
+["Bruno+Verena","zurn","UBSG","ROG","kud"],
 ["Monferini","nesn","soon","novn","scmn"],
 ["Affentranger","novn","Logn","zurn","kud"],
-["Bruno+Gina","novn","RO","nesn","csgn"],
-["Beranek","nesn","novn","RO","STMN"],
-["Cf","RO","UBSG","fhzn","AUTN"],
-["Lilly+Raffaele","RO","ams","CFR", "STMN"],
+["Bruno+Gina","novn","ROG","nesn","csgn"],
+["Beranek","nesn","novn","ROG","STMN"],
+["Cf","ROG","UBSG","fhzn","AUTN"],
+["Lilly+Raffaele","ROG","ams","CFR", "STMN"],
 ["Zeljko", "novn","scmn","csgn","arbn"],
 ["Eva+Markus","Uhr","CFR","zurn","csgn"],
 ["Emma+Christian","Logn","arbn","temn","nesn"],
-["Brandes","nesn","novn","RO","DUFN"],
-["Lüthi","UBSG","novn","RO","nesn"],
-["Hermann","RO","scmn","IMPN","nesn"],
-["Inge","novn","RO","nesn","STMN"],
-["Rosa+Marlen","AUTN","ams","soon","RO"],
-["Luciano","novn","nesn","RO","scmn"]]
+["Brandes","nesn","novn","ROG","DUFN"],
+["Lüthi","UBSG","novn","ROG","nesn"],
+["Hermann","ROG","scmn","IMPN","nesn"],
+["Inge","novn","ROG","nesn","STMN"],
+["Rosa+Marlen","AUTN","ams","soon","ROG"],
+["Luciano","novn","nesn","ROG","scmn"]]
 
 return raw.map(function(src) {
   return {name: src[0], bets: [src[1].toUpperCase(), src[2].toUpperCase(), src[3].toUpperCase(), src[4].toUpperCase()]}
