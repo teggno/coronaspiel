@@ -9,3 +9,4 @@ title = "Dabeisein ist alles"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 googleAnalytics = "UA-75965774-2"
+summaryLength = 40
