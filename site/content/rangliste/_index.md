@@ -1,8 +1,8 @@
 ---
 title: Rangliste
 type: rangliste
-image: /img/products-jumbotron.jpg
 date: 2020-03-29T12:34:14.815Z
+image: img/1081749-18772051-2560-1440.jpg
 teilnehmer:
   - punkte: 0
     name: Kurt Meier
