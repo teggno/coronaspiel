@@ -6,4 +6,4 @@ Wie ein Lauffeuer ging die Nachricht um die Welt. 20 waren angesagt - 35 sind es
 
 Lilly ist ausgezogen! Der gestrige Tag war zuviel für sie. Zwischen Staubsaugen und Geschirrspülmaschine ausräumen, hatte ich mich plötzlich auf das Börsenparkett verirrt. Raffi, was hast du dir nur angetan! Ausgerechnet im Jahr deines wohlverdienten Ruhestandes.
 
-Gestern noch Fussballexperten - heute Finanzakrobaten. Ein Hauch von "Wallstreet" weht durch die leeren Gassen. Die Rangliste wartet gespannt auf das erste Verdikt. Wer steht am Ende von Tag 1 zuoberst auf dem Podest? Zwischen 18 und 19 Uhr versuche ich den Schleier zu lüften.
+Aus Fussballexperten wurden Finanzakrobaten. Ein Hauch von "Wallstreet" weht durch die leeren Gassen. Die Rangliste wartet gespannt auf das erste Verdikt. Wer steht am Ende von Tag 1 zuoberst auf dem Podest? Zwischen 18 und 19 Uhr versuche ich den Schleier zu lüften.
