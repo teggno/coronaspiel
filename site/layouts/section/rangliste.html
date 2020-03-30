@@ -5,7 +5,7 @@
     <p class="center tc">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
   </div>
   
-  {{ if .Params.image }}<div><img src="{{ .Params.image }}" alt="{{ .Title }}" /></div>{{ end }}
+  {{ if .Params.image }}<div class="center"><img src="{{ .Params.image }}" alt="{{ .Title }}" /></div>{{ end }}
 
   <!-- <div id="myBet" class="pa2" style="position: fixed; top: 20px; right:20px; background-color: rgb(250, 250, 250);">
     <div><div>SYMBOL 1</div><div><input id="t1" name="t1"></div></div>
