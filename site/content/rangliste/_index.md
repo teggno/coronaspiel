@@ -66,4 +66,6 @@ teilnehmer:
     name: Moni+Coc Brandes
   - punkte: 0
     name: Markus Lüthi
+  - punkte: 0
+    name: Andy Hermann
 ---
