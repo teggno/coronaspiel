@@ -72,4 +72,6 @@ teilnehmer:
     name: Inge Berger
   - punkte: 0
     name: Rosa+Marlen
+  - punkte: 0
+    name: Leni+Luciano Schlepp
 ---
