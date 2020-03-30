@@ -70,4 +70,6 @@ teilnehmer:
     name: Andy Hermann
   - punkte: 0
     name: Inge Berger
+  - punkte: 0
+    name: Rosa+Marlen
 ---
