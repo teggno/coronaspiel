@@ -9,6 +9,9 @@ jobs:
     # This job runs on Linux
     runs-on: ubuntu-latest
     steps:
+      # Action that checks out the code to the runner
+      - name: Checkout
+        uses: actions/checkout@v2
       # This step uses GitHub's hello-world-javascript-action: https://github.com/actions/hello-world-javascript-action
       - name: Hello world
         uses: teggno/dabeiseinistalles-rangliste@master
