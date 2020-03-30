@@ -8,6 +8,7 @@
   <div id="autoRankingList">
 
   </div>
+
   <table class="collapse center">
     <tbody>
     {{ range .Params.teilnehmer }}
@@ -21,11 +22,128 @@
       var container = document.getElementById("autoRankingList")
       fetch("https://dabeiseinistalles.blob.core.windows.net/data/prices.json")
         .then(res => res.json())
-        .then(prices => {
+        .then(function(prices) {
+          var players = getBets()
+
+          var referenceDate = "20200327"
+          var currentDay = new Date().toISOString().substr(0, 10).split("-").join("")
+          var byValorSymbol = prices
+            .reduce(function(prev, current) {
+              var valorSymbol = current.valorSymbol
+              var group = prev[valorSymbol]
+              if (group) {
+                group.prices.push(current)
+              }
+              else {
+                group = { prices: [current] }
+                prev[valorSymbol] = group
+              }
+              if (current.lastDate === referenceDate) {
+                group.referenceDatePrice = current.closingPrice
+              }
+              return prev
+            }, {})
+
+          Object.values(byValorSymbol)
+            .forEach(function(group) {
+              group.prices = group.prices
+                .filter(function(item) { 
+                  return item.lastDate >= referenceDate 
+                })
+                .sort(function(a, b) { 
+                  return a.lastDate > b.lastDate ? -1 : a.lastDate === b.lastDate ? 0 : 1
+                })
+              group.prices.forEach(function(item){
+                item.performance = item.closingPrice / group.referenceDatePrice - 1
+              })
+            })
+            
+          var rankingList = players.map(function(player){
+            var performances = player.bets
+              .map(function(valorSymbol) {
+                var ofSymbol = byValorSymbol[valorSymbol]
+                if (!ofSymbol) {
+                  console.log("symbol not found in prices", valorSymbol)
+                }
+                return { 
+                  valorSymbol: valorSymbol,
+                  latest: ofSymbol.prices[0], 
+                  previous: ofSymbol.prices[1] }
+              })
+            return {
+              name: player.name,
+              performances: performances,
+              totalPerformance: performances.reduce(function(prev, current) {
+                return { 
+                  latest: prev.latest + current.latest.performance, 
+                  previous: prev.previous + current.previous.performance
+                }
+              }, { latest: 0, previous: 0 })
+            }
+          })
+
+          var html = rankingList
+            .sort(function(a, b) {
+              return b.totalPerformance.latest - a.totalPerformance.latest
+            })
+            .map(function(item){
+            return '<tr>' +
+              '<td class="ph2 pv1 tr">' + calculateRank(item, rankingList) + '.</td>' +
+              '<td class="ph2 pv1">' + item.name + '</td>' +
+              '<td class="ph2 pv1 tr">' + (Math.round(item.totalPerformance.latest * 10000) / 100).toFixed(2) + '%</td>' + 
+              '</tr>'
+          }).join("") 
           console.log(prices.length)
-          // container.innerHTML = prices[0].valorSymbol
+          container.innerHTML = '<table class="collapse center"><tbody>' + html + '</tbody></table>'
         })
 
+      function calculateRank(item, allItems) {
+         return allItems.filter(function(iitem){ 
+                return iitem.totalPerformance.latest > item.totalPerformance.latest 
+              }).length + 1
+      }
+
+      function getBets() {
+        var raw = [["Kurt Meier","Logn","fhzn","RO","Uhr"],
+["Fritz gschwend", "ams","RO","oerl","abbn"],
+["Koni+Silvia","scmn","novn","logn","csgn"],
+["Liotta","fhzn","soon","UBSG","AUTN"],
+["Von Känel","UBSG","novn","Uhr","nesn"],
+["Geni+Erika","novn","CFR","RO","soon"],
+["Chaschtä","nesn","kud","novn","RO"],
+["René Benz","novn","nesn","RO","STMN"],
+["Severin stucki","nesn","RO","zurn","temn"],
+["Urs+Katy","fhzn","DUFN","valn","Ams"],
+["Baggerstubä","csgn","novn","nesn","RO"],
+["Roger+Heidi","RO","LOGN","STMN","temn"],
+["Made+Donato","nesn","RO","novn","valn"],
+["Antonia+Rolf","csgn","RO","temn","nesn"],
+["Zingg","csgn","RO","zurn","abbn"],
+["Zac","novn","LOGN","zurn","scmn"],
+["Steuble","RO","csgn","scmn","zurn"],
+["Dog","Uhr","kud","AUTN","valn"],
+["Alex+Mario","novn","RO","scmn","valn"],
+["Bruno+Verena","zurn","UBSG","RO","kud"],
+["Monferini","nesn","soon","novn","scmn"],
+["Affentranger","novn","Logn","zurn","kud"],
+["Bruno+Gina","novn","RO","nesn","csgn"],
+["Beranek","nesn","novn","RO","STMN"],
+["Cf","RO","UBSG","fhzn","AUTN"],
+["Lilly+Raffaele","RO","ams","CFR", "STMN"],
+["Zeljko", "novn","scmn","csgn","arbn"],
+["Eva+Markus","Uhr","CFR","zurn","csgn"],
+["Emma+Christian","Logn","arbn","temn","nesn"],
+["Brandes","nesn","novn","RO","DUFN"],
+["Lüthi","UBSG","novn","RO","nesn"],
+["Hermann","RO","scmn","IMPN","nesn"],
+["Inge","novn","RO","nesn","STMN"],
+["Rosa+Marlen","AUTN","ams","soon","RO"],
+["Luciano","novn","nesn","RO","scmn"]]
+
+return raw.map(function(src) {
+  return {name: src[0], bets: [src[1].toUpperCase(), src[2].toUpperCase(), src[3].toUpperCase(), src[4].toUpperCase()]}
+})
+      }
     })()
   </script>
 
