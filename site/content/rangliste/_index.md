@@ -64,4 +64,6 @@ teilnehmer:
     name: Emma+Christian Bär
   - punkte: 0
     name: Moni+Coc Brandes
+  - punkte: 0
+    name: Markus Lüthi
 ---
