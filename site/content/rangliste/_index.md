@@ -62,4 +62,6 @@ teilnehmer:
     name: Eva+Markus Heitz
   - punkte: 0
     name: Emma+Christian Bär
+  - punkte: 0
+    name: Moni+Coc Brandes
 ---
