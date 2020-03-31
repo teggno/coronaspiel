@@ -1,9 +1,7 @@
 {{ define "main" }}
 
+
   <h1 class="center tc f2 pa2">Rangliste</h1>
-  <div class="dn-m tc mb3 center">
-    <button type="button" class="bg-primary white ph3 pv2 fw6 f5" id="myBetButton">Mein Tipp</button>
-    </div>
   <div class="center grey-3 tc">
     <p class="center tc">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
   </div>
@@ -19,6 +17,10 @@
   </div>
 
   <div id="autoRankingList">
+  </div>
+
+  <div class="dn-m fixed" style="bottom:0;left:50%;transform: translateX(-50%);">
+    <button type="button" class="bg-primary white ph3 pv2 fw6 f5" id="myBetButton">Mein Tipp</button>
   </div>
 
   <script src="/game/game.js"></script>
