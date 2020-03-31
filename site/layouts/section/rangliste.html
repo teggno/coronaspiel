@@ -1,14 +1,20 @@
 {{ define "main" }}
 
   <h1 class="center tc f2 pa2">Rangliste</h1>
+  <div class="dn-m tc mb3 center">
+    <button type="button" class="bg-primary white ph3 pv2 fw6 f5" id="myBetButton">Mein Tipp</button>
+    </div>
   <div class="center grey-3 tc">
     <p class="center tc">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
   </div>
   
   {{ if .Params.image }}<div class="center"><img src="{{ .Params.image }}" alt="{{ .Title }}" /></div>{{ end }}
 
-  <div class="pa2" style="position: fixed; top: 20px; right:20px; background-color: rgb(250, 250, 250);">
-    <h2 class="tc">Mein Tipp</h2>
+  <div id="myBetContainer" class="pa2 fixed mw5 dn db-m" style="top: 120px; right:20px; background-color: rgb(250, 250, 250);box-shadow: 0px 0px 4px 2px rgba( 0, 0, 0, 0.2 );">
+    <div class="flex justify-between">
+      <h2 class="tc">Mein Tipp</h2>
+      <button class="flex-right db dn-m" type="button" id="closeMyBetButton">x</button>
+    </div>
     <div id="myBet"></div>
   </div>
 
@@ -33,6 +39,16 @@
         }
 
         function initMyBet(byValorSymbol, valorSymbolsUsed, referenceDate) {
+          document.getElementById("myBetButton").addEventListener("click", function(){
+            toggleMyBet(true)
+          })
+          document.getElementById("closeMyBetButton").addEventListener("click", function() {
+            toggleMyBet(false)
+          })
+          function toggleMyBet(visible){
+            document.getElementById("myBetContainer").style.display = visible ? "block": ""
+          }
+
           var container = document.getElementById("myBet")
           var allStocks = valorSymbolsUsed
             .map(function(valorSymbol){ 
@@ -48,6 +64,7 @@
           })()
 
           var totalDiv = document.createElement("div")
+          totalDiv.className="tc"
           var controls = defaultSelection.map(function(valorSymbol) {
             var stockContainer = document.createElement("div")
             var stockSelector = createStockSelector(valorSymbol, allStocks, onChange)
@@ -87,24 +104,23 @@
               var latestItem = sourceStockData.prices[0]
 
               var stockData = {
-                reference: { closingPrice: sourceStockData.referenceDatePrice, lastDate: formatDate(parseDate(referenceDate)) },
-                latest: { closingPrice: latestItem.closingPrice, lastDate: formatDate(parseDate(latestItem.lastDate)) },
+                reference: { closingPrice: sourceStockData.referenceDatePrice.toFixed(2), lastDate: formatDate(parseDate(referenceDate)) },
+                latest: { closingPrice: latestItem.closingPrice.toFixed(2), lastDate: formatDate(parseDate(latestItem.lastDate)) },
                 performance: calculatePerformance(sourceStockData.referenceDatePrice, latestItem.closingPrice)
               }
               totalPerformance += stockData.performance
               control.stockInfoControl.update(stockData)
             })
             totalDiv.innerHTML = formatPercent(totalPerformance).toString() + "%"
+            totalDiv.style.color = totalPerformance < 0 ? "red" : "green"
           }
         }
 
         function makeInfoHtml(stockData) {
-          return '<div>Referenzpreis ' + stockData.reference.lastDate +'</div>' +
-            '<div>' + stockData.reference.closingPrice + '</div>' +
-            '<div>Letzter Preis ' + stockData.latest.lastDate + '</div>' +
-            '<div>' + stockData.reference.closingPrice + '</div>' +
-            '<div>Performance</div>' +
-            '<div>' + formatPercent(stockData.performance) + '%</div>'
+          var performanceColor = (stockData.performance < 0 ? 'red' : 'green')
+          return '<div class="flex justify-between"><div>' + stockData.reference.lastDate +'</div><div>' + stockData.reference.closingPrice + '</div></div>' +
+            '<div class="flex justify-between"><div>' + stockData.latest.lastDate +'</div><div>' + stockData.latest.closingPrice + '</div></div>' +
+            '<div class="tr" style="color:' + performanceColor + '">' + formatPercent(stockData.performance) + '%</div>'
         }
 
         function createStockSelector(defaultSelection, allStocks, onChange) {
