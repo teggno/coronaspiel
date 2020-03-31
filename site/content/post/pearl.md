@@ -2,7 +2,7 @@
 title: Bravo Urs - Danke Christian
 draft: false
 date: 2020-03-31T09:03:06.602Z
-image: ''
+image: img/pj_2012.jpg
 ---
 Erstens kommt es anders - und zweitens als man denkt. Regel Nr. 1: Fühl dich nie zu sicher! Tust du es trotzdem, folgt die Strafe auf den Fuss. Untergangspropheten, die in den letzten Tagen siegessicher à la Baisse spekuliert haben, verstehen die Welt nicht mehr. Das ist die Börse! Unberechenbarer als jedes weibliche Geschöpf. 
 
