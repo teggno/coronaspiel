@@ -3,7 +3,7 @@
 
   <h1 class="center tc f2 pa2">Rangliste</h1>
   <div class="center grey-3 tc">
-    <p class="center tc">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+    <p class="center tc" id="latestIntegratedFileProducedAt"></p>
   </div>
   
   {{ if .Params.image }}<div class="center"><img src="{{ .Params.image }}" alt="{{ .Title }}" /></div>{{ end }}
@@ -26,9 +26,15 @@
   <script src="/game/game.js"></script>
   <script>
     (function() {
-      fetch("https://dabeiseinistalles.blob.core.windows.net/data/prices.json")
+      fetch("https://dabeiseinistalles.blob.core.windows.net/data/pricesV2.json")
         .then(function(res){ return res.json() })
-        .then(function(prices){
+        .then(function(contents){
+          document.getElementById("latestIntegratedFileProducedAt").innerHTML = new Date(contents
+            .latestIntegratedFileProducedAt)
+            .toLocaleString()
+            
+
+          var prices = contents.prices
           var byValorSymbol = mapByValorSymbol(prices)
           var referenceDate = "20200327"
           initRankingList(referenceDate, byValorSymbol, getBets())
