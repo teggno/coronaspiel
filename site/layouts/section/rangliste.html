@@ -7,11 +7,12 @@
   
   {{ if .Params.image }}<div class="center"><img src="{{ .Params.image }}" alt="{{ .Title }}" /></div>{{ end }}
 
-  <div id="myBet" class="pa2" style="position: fixed; top: 20px; right:20px; background-color: rgb(250, 250, 250);">
+  <div class="pa2" style="position: fixed; top: 20px; right:20px; background-color: rgb(250, 250, 250);">
+    <h2 class="tc">Mein Tipp</h2>
+    <div id="myBet"></div>
   </div>
 
   <div id="autoRankingList">
-
   </div>
 
   <script src="/game/game.js"></script>
@@ -36,12 +37,40 @@
             return '<option value="' + valorSymbol + '">' + byValorSymbol[valorSymbol].shortName + '</option>'
           })
           var selects = ""
+          var jsStockContainer = "jsStockContainer"
           for(var i = 0; i < 4; i++){
-
-            selects += '<select>' + optionHtml + '</select>'
+            selects += '<div class="' + jsStockContainer + '">' +
+              '<select>' + optionHtml + '</select>' + 
+              '<div style="font-size:0.5rem"></div>' +
+              '</div>'
           }
 
           container.innerHTML = selects
+
+          var stockContainers = document.getElementsByClassName(jsStockContainer)
+          for (var i = 0; i < stockContainers.length; i++) {
+            var infoDiv = stockContainers[i].getElementsByTagName("div")[0]
+            var select = stockContainers[i].getElementsByTagName("select")[0]
+            select.addEventListener("change", selectHandler(infoDiv, byValorSymbol))
+            handleSelect(select, infoDiv, byValorSymbol)
+          }
+        }
+
+        function selectHandler(infoDiv, byValorSymbol){
+          return function(e) {
+            handleSelect(e.target, infoDiv, byValorSymbol)
+          }
+        }
+
+        function handleSelect(select, infoDiv, byValorSymbol) {
+          var item = byValorSymbol[select.value]
+          var latestItem = item.prices[0]
+          infoDiv.innerHTML = '<div>Referenzpreis 27.3.2020</div>' +
+            '<div>' + item.referenceDatePrice + '</div>' +
+            '<div>Letzter Preis ' + formatDate(parseDate(latestItem.lastDate)) + '</div>' +
+            '<div>' + latestItem.closingPrice + '</div>' +
+            '<div>Performance</div>' +
+            '<div>' + formatPercent(calculatePerformance(item.referenceDatePrice, latestItem.closingPrice)) + '%</div>'
         }
     })()
   </script>

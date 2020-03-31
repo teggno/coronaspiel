@@ -32,7 +32,7 @@ function calculateRankingList(referenceDate, byValorSymbol, players) {
                 group.referenceDatePrice = lastItem.closingPrice
             }
             group.prices.forEach(function (item) {
-                item.performance = item.closingPrice / group.referenceDatePrice - 1
+                item.performance = calculatePerformance(group.referenceDatePrice, item.closingPrice)
                 item.referenceDatePrice = group.referenceDatePrice
             })
         })
@@ -74,7 +74,7 @@ function rangkingListHtmlTable(rankingListData) {
             return '<tr>' +
                 '<td class="ph2 pv1 tr">' + calculateRank(item, rankingListData) + '.</td>' +
                 '<td class="ph2 pv1">' + item.name + '</td>' +
-                '<td class="ph2 pv1 tr">' + (Math.round(item.totalPerformance.latest * 10000) / 100).toFixed(2) + '%</td>' +
+                '<td class="ph2 pv1 tr">' + formatPercent(item.totalPerformance.latest) + '%</td>' +
                 '</tr>'
         }).join("")
 
@@ -97,6 +97,14 @@ function getValorSymbolsUsed() {
         }, {})
 
     return Object.keys(map).sort(function(a, b) { return a > b })
+}
+
+function calculatePerformance(refPrice, latestPrice) {
+    return latestPrice / refPrice - 1
+}
+
+function formatPercent(value) {
+    return (Math.round(value * 10000) / 100).toFixed(2)
 }
 
 function getBets() {
@@ -141,4 +149,12 @@ function getBets() {
     return raw.map(function (src) {
         return { name: src[0], bets: [src[1].toUpperCase(), src[2].toUpperCase(), src[3].toUpperCase(), src[4].toUpperCase()] }
     })
+}
+
+function parseDate(yyyymmdd){
+    return new Date(parseInt(yyyymmdd.substr(0, 4)), parseInt(yyyymmdd.substr(4, 2)) - 1, parseInt(yyyymmdd.substr(6, 2)))
+}
+
+function formatDate(date) {
+    return date.getDate().toString() + "." + (date.getMonth() + 1).toString() + "." + date.getFullYear().toString()
 }
