@@ -2,6 +2,7 @@
 title: pearl
 draft: true
 date: 2020-03-31T09:03:06.602Z
+image: img/pj_2012.jpg
 ---
 Erstens kommt es anders - und zweitens als man denkt. Regel Nr. 1: Fühl dich nie zu sicher! Tust du es trotzdem, folgt die Strafe auf den Fuss. Untergangspropheten, die in den letzten Tagen siegessicher à la Baisse spekuliert haben, verstehen die Welt nicht mehr. Das ist die Börse! Unberechenbarer als jedes weibliche Geschöpf. Die Heisssporne sind auf dem Vormarsch. Anteilseigner von Valora, Autoneum, Kudelski und Arbonia reiben sich genüsslich die Hände. Gestern noch als blutjunge Anfänger belächelt, schlagen sie heute unbarmherzig zu. 
 
