@@ -22,8 +22,9 @@
         .then(function(res){ return res.json() })
         .then(function(prices){
           var byValorSymbol = mapByValorSymbol(prices)
-          initRankingList("20200327", byValorSymbol, getBets())
-          initMyBet(byValorSymbol, getValorSymbolsUsed())
+          var referenceDate = "20200327"
+          initRankingList(referenceDate, byValorSymbol, getBets())
+          initMyBet(byValorSymbol, getValorSymbolsUsed(), referenceDate)
         })
 
         function initRankingList(referenceDate, prices, players) {
@@ -31,48 +32,113 @@
           document.getElementById("autoRankingList").innerHTML = rangkingListHtmlTable(rankingListData)
         }
 
-        function initMyBet(byValorSymbol, valorSymbolsUsed) {
+        function initMyBet(byValorSymbol, valorSymbolsUsed, referenceDate) {
           var container = document.getElementById("myBet")
-          var optionHtml = valorSymbolsUsed.map(function(valorSymbol){
-            return '<option value="' + valorSymbol + '">' + byValorSymbol[valorSymbol].shortName + '</option>'
-          })
-          var selects = ""
-          var jsStockContainer = "jsStockContainer"
-          for(var i = 0; i < 4; i++){
-            selects += '<div class="' + jsStockContainer + '">' +
-              '<select>' + optionHtml + '</select>' + 
-              '<div style="font-size:0.5rem"></div>' +
-              '</div>'
+          var allStocks = valorSymbolsUsed
+            .map(function(valorSymbol){ 
+              return {
+                valorSymbol: valorSymbol, 
+                shortName: byValorSymbol[valorSymbol].shortName
+              }
+            })
+
+          var defaultSelection = getSelection() || (function(){
+            var firstValorSymbol = allStocks[0].valorSymbol
+            return [firstValorSymbol, firstValorSymbol, firstValorSymbol, firstValorSymbol]
+          })()
+
+          var totalDiv = document.createElement("div")
+          var controls = defaultSelection.map(function(valorSymbol) {
+            var stockContainer = document.createElement("div")
+            var stockSelector = createStockSelector(valorSymbol, allStocks, onChange)
+            var stockInfoControl = createStockInfoControl()
+            stockContainer.appendChild(stockSelector.element)
+            stockContainer.appendChild(stockInfoControl.element)
+            container.appendChild(stockContainer)
+            return {
+              stockSelector: stockSelector,
+              stockInfoControl: stockInfoControl
+            }
+          }) 
+          updateInfo()
+          container.appendChild(totalDiv)
+
+          function onChange(){
+            saveSelection()
+            updateInfo()
           }
 
-          container.innerHTML = selects
+          function saveSelection() {
+            var selection = controls.map(function(c) {
+              return c.stockSelector.selectedValorSymbol()
+            })
+            localStorage.setItem("selection", JSON.stringify(selection))
+          }
 
-          var stockContainers = document.getElementsByClassName(jsStockContainer)
-          for (var i = 0; i < stockContainers.length; i++) {
-            var infoDiv = stockContainers[i].getElementsByTagName("div")[0]
-            var select = stockContainers[i].getElementsByTagName("select")[0]
-            select.addEventListener("change", selectHandler(infoDiv, byValorSymbol))
-            handleSelect(select, infoDiv, byValorSymbol)
+          function getSelection() {
+            var raw = localStorage.getItem("selection")
+            return raw ? JSON.parse(raw) : null
+          }
+
+          function updateInfo() {
+            var totalPerformance = 0
+            controls.forEach(function(control){
+              var sourceStockData = byValorSymbol[control.stockSelector.selectedValorSymbol()]
+              var latestItem = sourceStockData.prices[0]
+
+              var stockData = {
+                reference: { closingPrice: sourceStockData.referenceDatePrice, lastDate: formatDate(parseDate(referenceDate)) },
+                latest: { closingPrice: latestItem.closingPrice, lastDate: formatDate(parseDate(latestItem.lastDate)) },
+                performance: calculatePerformance(sourceStockData.referenceDatePrice, latestItem.closingPrice)
+              }
+              totalPerformance += stockData.performance
+              control.stockInfoControl.update(stockData)
+            })
+            totalDiv.innerHTML = formatPercent(totalPerformance).toString() + "%"
           }
         }
 
-        function selectHandler(infoDiv, byValorSymbol){
-          return function(e) {
-            handleSelect(e.target, infoDiv, byValorSymbol)
-          }
-        }
-
-        function handleSelect(select, infoDiv, byValorSymbol) {
-          var item = byValorSymbol[select.value]
-          var latestItem = item.prices[0]
-          infoDiv.innerHTML = '<div>Referenzpreis 27.3.2020</div>' +
-            '<div>' + item.referenceDatePrice + '</div>' +
-            '<div>Letzter Preis ' + formatDate(parseDate(latestItem.lastDate)) + '</div>' +
-            '<div>' + latestItem.closingPrice + '</div>' +
+        function makeInfoHtml(stockData) {
+          return '<div>Referenzpreis ' + stockData.reference.lastDate +'</div>' +
+            '<div>' + stockData.reference.closingPrice + '</div>' +
+            '<div>Letzter Preis ' + stockData.latest.lastDate + '</div>' +
+            '<div>' + stockData.reference.closingPrice + '</div>' +
             '<div>Performance</div>' +
-            '<div>' + formatPercent(calculatePerformance(item.referenceDatePrice, latestItem.closingPrice)) + '%</div>'
+            '<div>' + formatPercent(stockData.performance) + '%</div>'
+        }
+
+        function createStockSelector(defaultSelection, allStocks, onChange) {
+          var select = document.createElement("select")
+          allStocks.forEach(function(stock) {
+            var option = document.createElement("option")
+            option.value = stock.valorSymbol
+            option.innerHTML = stock.shortName
+            select.appendChild(option)
+          })
+          select.addEventListener("change", function(e) {
+            onChange(e.target.value)
+          })
+          select.value = defaultSelection
+          return {
+            element: select,
+            selectedValorSymbol: function() {
+              return select.value
+            }
+          }
+        }
+
+        function createStockInfoControl() {
+          var container = document.createElement("div")
+          container.style.fontSize = "0.5rem"
+          return {
+            update: function(stockData) {
+              container.innerHTML = makeInfoHtml(stockData)
+            },
+            element: container
+          }
         }
     })()
   </script>
 
 {{ end }}
+
