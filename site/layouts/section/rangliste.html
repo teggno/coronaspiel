@@ -20,7 +20,7 @@
   </div>
 
   <div class="dn-m fixed" style="bottom:0;left:50%;transform: translateX(-50%);">
-    <button type="button" class="bg-primary white ph3 pv2 fw6 f5" id="myBetButton">Mein Tipp</button>
+    <button type="button" class="bg-primary white ph3 pv2 fw6 f5" style="box-shadow: 0px 0px 4px 2px rgba( 0, 0, 0, 0.2 )" id="myBetButton">Mein Tipp</button>
   </div>
 
   <script src="/game/game.js"></script>
@@ -42,7 +42,7 @@
 
         function initMyBet(byValorSymbol, valorSymbolsUsed, referenceDate) {
           document.getElementById("myBetButton").addEventListener("click", function(){
-            toggleMyBet(true)
+            toggleMyBet(document.getElementById("myBetContainer").style.display !== "block")
           })
           document.getElementById("closeMyBetButton").addEventListener("click", function() {
             toggleMyBet(false)

@@ -96,7 +96,7 @@ function getValorSymbolsUsed() {
             return prev
         }, {})
 
-    return Object.keys(map).sort(function(a, b) { return a > b })
+    return Object.keys(map).sort(function(a, b) { return a > b ? 1 : a === b ? 0 : -1 })
 }
 
 function calculatePerformance(refPrice, latestPrice) {
