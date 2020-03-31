@@ -6,7 +6,7 @@ image: ''
 ---
 Erstens kommt es anders - und zweitens als man denkt. Regel Nr. 1: Fühl dich nie zu sicher! Tust du es trotzdem, folgt die Strafe auf den Fuss. Untergangspropheten im Bärengewand, die in den letzten Tagen siegessicher à la Baisse spekuliert haben, verstehen die Welt nicht mehr. Das ist die Börse! Unberechenbarer als jedes weibliche Geschöpf. 
 
-Die Heisssporne sind auf dem Vormarsch. Anteilseigner von Valora, Autoneum, Kudelski und Arbonia reiben sich genüsslich die Hände. Gestern noch als blutjunge Anfänger belächelt, schlagen sie heute unbarmherzig zu und drängen die "Soliden" kurzzeitig in die Defensive. Gestattet mir eine kleine Bemerkung; es ist unglaublich, dass man mit astronomischen + 7% an 33ster Stelle steht. Chapeau!
+Die Heisssporne sind auf dem Vormarsch. Anteilseigner von Valora, Autoneum, Kudelski und Arbonia reiben sich genüsslich die Hände. Gestern noch als blutjunge Anfänger belächelt, schlagen sie heute unbarmherzig zu und drängen die "Soliden" kurzzeitig in die Defensive. Gestattet mir eine kleine Bemerkung; es ist unglaublich, dass man mit überdurchschnittlichen 7% an 33ster Stelle steht. Chapeau!
 
 Auf seinem "Tippschein" steht "von Börse keine Ahnung"! Und ob du eine Ahnung hast lieber Urs (Affentranger). Mit einer Performance von 25 % in 2 Tagen hast du den Vogel abgeschossen.Nach all deinen "Entbehrungen" beim letzten WM-Quiz, darfst du das "Fussvolk" endlich einmal von der Kanzel aus betrachten.
 
