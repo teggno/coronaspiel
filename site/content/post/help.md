@@ -2,6 +2,7 @@
 title: Help
 draft: true
 date: 2020-04-01T14:39:06.385Z
+image: img/beatles-help-i7607.jpg
 ---
 Der Mammon fürchtet sie wie der Teufel das Weihwasser. Die Rede ist von den Bären. Ausgerechnet am 1. April treiben sie auf dem Börsenparkett ihr Unwesen. Der obligate Aprilscherze bleibt für einmal im Hals stecken. Der Frust sitzt tief.
 
