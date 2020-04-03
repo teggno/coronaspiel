@@ -3,7 +3,7 @@ title: Wiedersehen mit Klopp
 draft: true
 date: 2020-04-03T08:20:44.713Z
 ---
-Seitwärts statt hoch und runter, die Börse ist in ruhigeres Fahrwasser geraten.Zeit auf andere Gedanken zu kommen. Nach wochenlanger Quarantäne werden Flucht
+Langweilig ist's geworden am Ring. Die Börse ist in ruhigeres Fahrwasser geraten. Zeit sich die 
 
 Zum Glück habe ich vorgesorgt. Im Hangar oben beim Schloss Castell steht meine zweimotorige Propellermaschine, die endlich wieder mal über weisse Bergkuppen und azurblaues Meer schweben will. Den Instrumentencheck vorgenommen, das Navi eingestellt, den Motor gestartet. Auf geht's an den Ort von "Penny Lane" und Yesterday.
 
