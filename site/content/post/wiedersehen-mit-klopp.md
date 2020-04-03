@@ -4,7 +4,7 @@ draft: false
 date: 2020-04-03T08:20:44.713Z
 image: img/94a983f7-3185-457c-b4d9-3d33ea1e88c1.jpeg
 ---
-Die Börse ist in ruhigeres Fahrwasser geraten. Zeit sich für ein paar Stunden aus der Umklammerung zu lösen. Zum Glück habe ich vorgesorgt. Im Hangar oben beim Schloss Castell steht meine zweimotorige Propellermaschine, die endlich wieder mal über weisse Bergkuppen und azurblaues Meer schweben will. Instrumentencheck ok, das Navi ist eingestellt, der Motor gestartet. Der Ort wo Musikgeschichte geschrieben wurde wartet auf uns.
+Die Börse ist in ruhigeres Fahrwasser geraten. Zeit sich für ein paar Stunden aus der Umklammerung zu lösen. Zum Glück habe ich vorgesorgt. Im Hangar oben beim Schloss Castell steht meine zweimotorige Propellermaschine, die endlich wieder mal über weisse Bergkuppen und azurblaues Meer schweben will. Instrumentencheck ok -  Navi eingestellt - Motor gestartet. Der Ort wo Musikgeschichte geschrieben wurde wartet auf uns.
 
 Ein strahlendes Lächeln, Dreitagebart, der Schalk in den Augen. So steht er vor mir, die Lichtgestalt des FC Liverpool. Zusammen fahren wir zum Cavern Club, dort wo die Mädchen in den wilden Sechzigern bei "I want to hold your hand" scharenweise in Ohnmacht fielen. An den Wänden die Überbleibsel einer unvergessenen Epoche.
 
