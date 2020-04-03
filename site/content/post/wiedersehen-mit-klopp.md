@@ -1,6 +1,6 @@
 ---
 title: Wiedersehen mit Klopp
-draft: false
+draft: true
 date: 2020-04-03T08:20:44.713Z
 image: img/94a983f7-3185-457c-b4d9-3d33ea1e88c1.jpeg
 ---
