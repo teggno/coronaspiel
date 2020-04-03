@@ -6,7 +6,7 @@ image: img/94a983f7-3185-457c-b4d9-3d33ea1e88c1.jpeg
 ---
 Die Börse ist in ruhigeres Fahrwasser geraten. Zeit sich für ein paar Stunden aus der Umklammerung zu lösen. Zum Glück habe ich vorgesorgt. Im Hangar oben beim Schloss Castell steht meine zweimotorige Propellermaschine, die endlich wieder mal über weisse Bergkuppen und azurblaues Meer schweben will. Instrumentencheck ok -  Navi eingestellt - Motor gestartet. Der Ort wo Musikgeschichte geschrieben wurde wartet auf uns.
 
-Ein strahlendes Lächeln, Dreitagebart, der Schalk in den Augen. So steht er vor mir, die Lichtgestalt des FC Liverpool. Zusammen fahren wir zum Cavern Club, dort wo in den wilden Sechzigern die Mädchen bei "I want to hold your hand" scharenweise in Ohnmacht fielen. An den Wänden die Überbleibsel einer unvergessenen Ära.
+Ein strahlendes Lächeln, Dreitagebart, der Schalk in den Augen. So steht er vor mir, die Lichtgestalt des FC Liverpool. Zusammen fahren wir zum Cavern Club, dort wo in den wilden Sechzigern die Mädchen bei "I want to hold your hand" scharenweise in Ohnmacht fielen. An den Wänden hängen die Überbleibsel einer unvergessenen Zeit.
 
 Jürgen legt los. Erzählt von "Anfield" und den wundervollen Fans. Von seinem Fauxpas, nach "Karius" einen weiteren Fliegenfänger als Ersatz für den dauerverletzten Allison verpflichtet zu haben. Vom frühzeitigen Aus in der Champions League. Von der lebensgrossen Statue die sie ihm samt Strassenschild gewidmet haben. Von Shakiri, der nur noch auf der Tribüne sitzt. Von Guardiola und Mourinho die zu "Statisten"degradiert wurden und vom unsichtbaren Feind, der seine Jungs knapp vor dem Ziel ausgebremst hat.
 
