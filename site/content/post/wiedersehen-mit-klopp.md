@@ -4,7 +4,7 @@ draft: true
 date: 2020-04-03T08:20:44.713Z
 image: img/94a983f7-3185-457c-b4d9-3d33ea1e88c1.jpeg
 ---
-Die Flucht aus der Quarantäne. Zum Glück hatte ich vorgesorgt und mir vor der Grenzschliessung eine zweimotorige Propellermaschine zugelegt. Die Börseneröffnung um 9 liess Böses erahnen. Hinter mir nur noch Urs. Ein Horrorszenario. Also stieg ich hoch zum Hangar oben beim Schloss Castell und holte die Maschine raus. Instrumentencheck - Navi eingestellt -Motor gestartet. Über den Wolken muss die Freiheit wohl grenzenlos sein. Stimmt! Weisse Bergkuppen, azurblaues Meer. Die Landung vom Feinsten. Ich bin am Ort wo Musikgeschichte geschrieben wurde.
+Die Flucht aus der Quarantäne. Zum Glück hatte ich vorgesorgt und mir vor der Grenzschliessung eine zweimotorige Propellermaschine zugelegt. Die Börseneröffnung um 9 liess Böses erahnen. Hinter mir nur noch Urs. Ein Horrorszenario. Also stieg ich hoch zum Schloss Castell öffnete den Hangar und holte mein neues "Baby" raus. Instrumentencheck - Navi eingestellt -Motor gestartet. Über den Wolken muss die Freiheit wohl grenzenlos sein. Stimmt! Weisse Bergkuppen - azurblaues Meer. Die Landung vom Feinsten. Ich bin am Ort wo Musikgeschichte geschrieben wurde.
 
 Ein strahlendes Lächeln, Dreitagebart, der Schalk in den Augen. So steht er vor mir, die Lichtgestalt des FC Liverpool. Zusammen fahren wir zum Cavern Club, dort wo in den wilden Sechzigern die Mädchen bei "I want to hold your hand" scharenweise in Ohnmacht fielen. An den Wänden hängen die Überbleibsel einer unvergessenen Zeit.
 
