@@ -10,6 +10,6 @@ Ein strahlendes Lächeln, Dreitagebart, der Schalk in den Augen. So steht er vor
 
 Jürgen legt los. Erzählt von "Anfield" und den wundervollen Fans. Von seinem Fauxpas, nach "Karius" einen weiteren Fliegenfänger als Ersatz für den dauerverletzten Allison verpflichtet zu haben. Vom frühzeitigen Aus in der Champions League. Von der lebensgrossen Statue die sie ihm samt Strassenschild gewidmet haben. Von Shakiri, der nur noch auf der Tribüne sitzt. Von Guardiola und Mourinho die zu "Statisten" geworden sind und vom unsichtbaren Feind, der seine Jungs knapp vor dem Ziel ausgebremst hat.
 
-Am Ende komme ich auch noch zu Wort. Ich darf endlich die Frage aller Fragen loswerden. "Jürgen, wann ist die Zeit von Fish & Chips vorbei? Wann gelüstet es dich nach einem anständigen Teller "Pasta". Und wann willst du dich endlich an den Hals der "Alten Dame" schmeissen?"
+Am Ende komme ich auch noch zu Wort. Ich darf endlich die Frage aller Fragen loswerden. "Jürgen, wann ist die Zeit von Fish & Chips vorbei? Wann hast du Lust auf einen anständigen Teller "Pasta". Und wann willst du dich endlich an den Hals der "Alten Dame" schmeissen?"
 
 Das Lächeln auf seinen Lippen ist verschwunden. Das Bild über der Theke hat ihn in's Grübeln gebracht. "All you need is love", die "Fab Four" wussten schon früh, was im Leben wirklich zählt. Nachdem wir uns verabschiedet haben, dreht er sich nochmals um und fragte mich in perfektem Schweizerdeutsch: "Säg Raffi, wär isch aigentlich dä Chaschtä"......
