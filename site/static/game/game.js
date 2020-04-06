@@ -109,7 +109,7 @@ function formatPercent(value) {
 
 function getBets() {
     var raw = [
-        ["Kurt Meier", "Logn", "fhzn", "ROG", "Uhr"],
+        ["Banquette/Kurt Meier", "Logn", "fhzn", "ROG", "Uhr"],
         ["Fritz Gschwend", "ams", "ROG", "oerl", "abbn"],
         ["Koni+Sylvia", "scmn", "novn", "logn", "csgn"],
         ["Tanino Liotta", "fhzn", "soon", "UBSG", "AUTN"],
