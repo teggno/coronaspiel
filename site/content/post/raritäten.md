@@ -1,6 +1,6 @@
 ---
 title: Klassiker
-draft: true
+draft: false
 date: 2020-04-06T08:47:41.953Z
 image: img/1b4173aa-5e4a-4172-b39e-e071f6185358_4_5005_c.jpeg
 ---
