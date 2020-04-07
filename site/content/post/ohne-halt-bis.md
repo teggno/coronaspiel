@@ -2,6 +2,7 @@
 title: Bitte anschnallen!
 draft: true
 date: 2020-04-07T08:04:18.938Z
+image: img/8b4e47eb-16a3-41a4-9081-9979ecb297a1.jpeg
 ---
 Den Mutigen oder besser noch den Übermütigen gehört die Welt. Nachdem der SMI-Express auf Weisung der "Wallstreet-Zentrale" mit "300 Sachen" vom Matterhorn bis zum Bodensee hinuntergerast war und über 4000 Höhenmeter verloren hatte, kam er in der Metro-Station "Tägerwilen-Dorf" für wenige Minuten zum Stehen.\
 \
