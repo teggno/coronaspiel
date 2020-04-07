@@ -1,6 +1,6 @@
 ---
 title: Bitte anschnallen!
-draft: true
+draft: false
 date: 2020-04-07T08:04:18.938Z
 image: img/8b4e47eb-16a3-41a4-9081-9979ecb297a1.jpeg
 ---
