@@ -1,5 +1,5 @@
 ---
-title: Ohne Halt bis?
+title: Anschnallpflicht
 draft: true
 date: 2020-04-07T08:04:18.938Z
 ---
