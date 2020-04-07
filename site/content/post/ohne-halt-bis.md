@@ -3,8 +3,8 @@ title: Bitte anschnallen!
 draft: true
 date: 2020-04-07T08:04:18.938Z
 ---
-Den Mutigen oder besser noch den Übermütigen gehört die Welt. Nachdem der SMI-Express auf Weisung der "Wallstreet-Zentrale" mit "300 Sachen" vom Matterhorn bis zum Bodensee hinuntergerast war und über 4000 Höhenmeter verloren hatte, kam er im „Metro-Bahnhof“ Tägerwilen-Dorf für wenige Minuten zum Stehen.\
+Den Mutigen oder besser noch den Übermütigen gehört die Welt. Nachdem der SMI-Express auf Weisung der "Wallstreet-Zentrale" mit "300 Sachen" vom Matterhorn bis zum Bodensee hinuntergerast war und über 4000 Höhenmeter verloren hatte, kam er in der Metro-Station "Tägerwilen-Dorf" für wenige Minuten zum Stehen.\
 \
 Aus lauter Panik verliessen Tausende von Spekulanten und Kleinanleger den Zug. Nur der Lokomotivführer, der Schaffner und ein paar Fatalisten blieben an Bord. Bei der Aufforderung „ischtigä - Platz neh bittte“ sprangen ein paar "Goldgräber" in die leeren Waggons. Laut „Fahrplan“ sollte der Zug weiter abwärts bis an die Adria rasen. Warum der Lokführer stattdessen Kurs zurück auf das Alpenmassiv nahm, ist für die meisten Finanzexperten ein Rätsel. 
 
-Mittlerweile ist die "Frecciarossa" ohne Zwischenhalt in Zermatt eingetroffen. Wer auf's Matterhorn will mus auf die Glasbodenbahn umsteigen. Macht das wirklich noch Sinn, fragt sich die Karavane...."I glaub dä Zug isch abgfahrä"........
+Mittlerweile ist die "Frecciarossa" ohne Zwischenhalt in Zermatt eingetroffen. Wer auf's Matterhorn will muss auf die Glasbodenbahn umsteigen. Macht das wirklich noch Sinn..... ."odär isch au dä Zug abgfahrä"........
