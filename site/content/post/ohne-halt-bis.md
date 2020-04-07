@@ -7,4 +7,4 @@ Den Mutigen oder besser noch den Übermütigen gehört die Welt. Nachdem der SMI
 \
 Aus lauter Panik verliessen Tausende von Spekulanten und Kleinanleger den Zug. Nur der Lokomotivführer, der Schaffner und ein paar Fatalisten blieben an Bord. Bei der Aufforderung „ischtigä ....Platz neh bittte“ sprangen ein paar "Goldgräber" in die leeren Waggons. Laut „Fahrplan“ sollte der Zug weiter abwärts bis an die Adria rasen. Warum der Lokführer stattdessen Kurs zurück auf das Alpenmassiv nahm, ist für viele Finanzexperten ein Rätsel. 
 
-Mittlerweile ist die "Frecciarossa" ohne Zwischenhalt in Zermatt eingetroffen. Wer auf's Matterhorn will Der Lokomotivführer hat sich zurückgelehnt und sich genüsslich eine „Havanna“ angezündet.Draussen auf dem Perron ist die Hölle los. Die Gier hat schon wieder um sich gegriffen. „Capo“ wie geht’s weiter, wollen alle wissen. Richtung Tansania oder zurück nach Rimini.
+Mittlerweile ist die "Frecciarossa" ohne Zwischenhalt in Zermatt eingetroffen. Wer auf's Matterhorn will mus auf die Glasbodenbahn umsteigen. Wer zurück wil
