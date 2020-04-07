@@ -7,4 +7,4 @@ Den Mutigen oder besser noch den Übermütigen gehört die Welt. Nachdem der SMI
 \
 Aus lauter Panik verliessen Tausende von Spekulanten und Kleinanleger den Zug. Nur der Lokführer, der Schaffner und ein paar Fatalisten blieben an Bord. Bei der Aufforderung „ischtigä - Platz neh bittte“ sprangen ein paar "Goldgräber" in die leeren Waggons. Laut „Fahrplan“ sollte der Zug weiter abwärts bis zur Endsation  "Corona-Crash" rasen. Warum der Lokführer stattdessen Kurs zurück auf das Alpenmassiv nahm, ist für die meisten Finanzexperten ein Rätsel. 
 
-Mittlerweile ist die "Frecciarossa" ohne Zwischenhalt an der Talstation "Trockener Steg" eingetroffen. 2000 Meter hoch, einfach so im Handumdrehen. Wer weiter auf's Matterhorn will, muss auf die Glasbodenbahn umsteigen. Macht das wirklich noch Sinn..... ."odär isch au dä Zug abgfahrä"........?
+Mittlerweile ist die "Frecciarossa" ohne Zwischenhalt an der Talstation "Trockener Steg" eingetroffen. 2000 Meter ist sie hochgedüst, als ob es kein Morgen gäbe. Wer weiter auf's Matterhorn "steigen" will, muss auf die Glasbodenbahn umsteigen. Macht das wirklich noch Sinn..... ."odär isch au dä Zug abgfahrä"........?
