@@ -1,5 +1,5 @@
 ---
-title: Aasgeier
+title: Leaderwechsel?
 draft: true
 date: 2020-04-08T06:58:39.748Z
 image: img/55f9b3bd-6cb5-4bc7-89fa-98f160a8606a.jpeg
