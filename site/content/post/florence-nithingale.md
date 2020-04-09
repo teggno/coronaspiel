@@ -1,6 +1,6 @@
 ---
 title: Florence Nithingale
-draft: true
+draft: false
 date: 2020-04-06T08:21:06.097Z
 image: img/c3e83a01-d244-4ad5-8169-b823514de958.jpeg
 ---
