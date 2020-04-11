@@ -1,7 +1,7 @@
 ---
 title: Top 14
 draft: true
-date: 2020-04-11T22:00:00.000Z
+date: 2020-04-10T22:00:00.000Z
 players:
   s3: ChFo
   ersatz: 'Markus Lüthi Bruno+Gina,, Rosa+Marlen'
