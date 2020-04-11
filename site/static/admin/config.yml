@@ -32,6 +32,9 @@ collections: # A list of collections the CMS should be able to edit
         - { label: "Stürmer 1", name: "s1", widget: "string" }
         - { label: "Stürmer 2", name: "s2", widget: "string" }
         - { label: "Stürmer 3", name: "s3", widget: "string" }
+        - label: "Ersatz"
+          name: "ersatz"
+          widget: "list"
   - name: "pages"
     label: "Seiten"
     files:

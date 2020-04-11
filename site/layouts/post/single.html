@@ -8,7 +8,8 @@
     <div class="cms mw6">
       <p>{{ .Description }}</p>
       {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
-      {{ if .Params.players}}<div>
+      {{ if .Params.players.goalie }}
+      <div>
         <!-- <div class="relative" style="transform: translateY(-7rem) perspective(600px) rotateX(50deg) scale(0.75,0.75);"> -->
           <div class="relative">
             <img style="width: 100%;z-index:5;" src="img/players.svg" alt="Halbes Fussballfeld"/>
@@ -24,7 +25,17 @@
           <div style="position: absolute; left: 50%;bottom: 84%; transform: translateX(-50%);color:white;text-align: center;">{{ replace .Params.players.s2 " " "<br/>" | safeHTML }}</div>
           <div style="position: absolute; left: 75%;bottom: 84%; transform: translateX(-50%);color:white;text-align: center;">{{ replace .Params.players.s3 " " "<br/>" | safeHTML }}</div>
         </div>
-      </div>{{ end }}
+      </div>
+        {{ $len := (len .Params.players.ersatz) }}
+        {{ if ( gt $len 0 ) }}
+        <div class="pb3">
+          <strong>Ersatzbank:</strong>
+          {{ range $index, $element := .Params.players.ersatz }}
+              <span>{{ . }}{{ if ne (add $index 1) $len }}, {{ end }}</span>
+          {{ end }}
+        </div>
+          {{ end }}
+        {{ end }}
       {{ .Content }}
     </div>
   </div>

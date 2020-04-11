@@ -15,5 +15,12 @@ players:
     s1: Peter Stürmer1
     s2: Peter Stürmer2
     s3: Peter Stürmer3
+    ersatz:
+        - Stefanie Ersatz1
+        - Stefanie Ersatz2
+        - Stefanie Ersatz3
+        - Stefanie Ersatz4
+        - Stefanie Ersatz5
+        - Stefanie Ersatz6
 ---
 Dies ist der Text des Artikels.
