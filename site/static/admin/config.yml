@@ -20,6 +20,7 @@ collections: # A list of collections the CMS should be able to edit
       - label: "Aufstellung"
         name: "players"
         widget: "object"
+        required: false
         fields: 
         - { label: "Goalie", name: "goalie", widget: "string" }
         - { label: "Verteidiger 1", name: "v1", widget: "string" }
