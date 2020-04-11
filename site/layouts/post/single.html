@@ -26,15 +26,11 @@
           <div style="position: absolute; left: 75%;bottom: 84%; transform: translateX(-50%);color:white;text-align: center;">{{ replace .Params.players.s3 " " "<br/>" | safeHTML }}</div>
         </div>
       </div>
-        {{ $len := (len .Params.players.ersatz) }}
-        {{ if ( gt $len 0 ) }}
+        {{ if .Params.players.ersatz }}
         <div class="pb3">
-          <strong>Ersatzbank:</strong>
-          {{ range $index, $element := .Params.players.ersatz }}
-              <span>{{ . }}{{ if ne (add $index 1) $len }}, {{ end }}</span>
-          {{ end }}
+          <strong>Ersatzbank:</strong> {{ .Params.players.ersatz }}
         </div>
-          {{ end }}
+        {{ end }}
         {{ end }}
       {{ .Content }}
     </div>
