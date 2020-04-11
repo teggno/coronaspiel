@@ -3,15 +3,15 @@ title: Top 14
 draft: false
 date: 2020-04-10T08:02:38.656Z
 players:
-  s3: Christian Forster
+  s3: ChFo
   ersatz: 'Markus Lüthi Bruno+Gina,, Rosa+Marlen'
   m1: Christian
   m2: Chaschtä
-  m3: Peter von Kännel
+  m3: Vonki
   goalie: Zeljko
   v1: Tanino
   v2: Affentranger
-  v3: Affentranger
+  v3: Wacker
   s1: Banquette
   v4: Koni
   s2: Dog
