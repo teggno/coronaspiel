@@ -16,7 +16,7 @@ players:
   v4: Koni
   s2: Dog
 ---
-Trainer: "Pep" René Benz
+
 
 Halbzeit! Das renommierte „Wallstreet-Journal“ hat sich die Mühe gemacht, aus 9 turbulenten Börsentagen eine Topverdiener-Truppe zusammen zu basteln und diese am heutigen Ostersonntag für ein Benefizspiel auf die fussballhungrige Menschheit loszulassen. Dabei wurde in erster Linie auf die Platzierung Rücksicht genommen. Attribute wie Ausdauer, Solidität, Unberechenbarkeit,, Antizipation, Seriosität und Killerinstinkt öffneten den „Gurus“ die Türen zur „Hall of Fame“. Als oberste Jury amtete die „Salomon-Jüngerin„ Lilly Obimo, die neben der Stammelf  gleich noch „3 Notnägel für alle Fälle“ nominierte. Trainerlegende „Pep“ alias René Benz schickte trotz Corona-Verbot folgende „Osterhasen“ im bewährten 4-3-3 System auf das Parkett: 
 
