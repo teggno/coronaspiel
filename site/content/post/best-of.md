@@ -22,6 +22,6 @@ Im Tor „bin i Radi bin i König“ Zeljko Berger. Hinten rechts “dä Koni“
 \
 In der Schaltzentrale die „Lunge“ Chaschtä, der mit Knipserqualitäten glänzte, die man von ihm nicht gewohnt war. Rechtes Mittelfeld Vonki (Peter von Känel), bei dem man nie weiss, wohin die Reise geht und im linken Mittelfeld „Sohnemann“ Christian, der die Partie zusammen mit dem rotgesperrten „One-Hit-Wonder“ Zac kurzfristig auf die Beine gestellt hat.
 
-Den „Wundersturm“ darf man sich getrost auf der Zunge zergehen lassen. Dribbelkünstler „Banquette“, der auf dem linken „Couloir“, die Aussenlinie schwindlig spielte, „Rägäbogä-Unikat-Chfo“ der über rechts zu  seinen berüchtigten Bananenflanken ansetzte und vorne im Zentrum Finanz-Genie „Dog“, der im Stile eines Gerd Müller das Leder über die Linie "müllerte".
+Den „Wundersturm“ darf man sich getrost auf der Zunge zergehen lassen. Dribbelkünstler „Banquette“, der auf dem linken „Couloir“ die Aussenlinie schwindlig spielte, „Rägäbogä-Unikat-Chfo“ der über rechts zu  seinen berüchtigten Bananenflanken ansetzte und vorne im Zentrum Finanz-Genie „Dog“, der im Stile eines Gerd Müller das Leder über die Linie "müllerte".
 
 In jeder Mannschaft auf dieser Welt gesetzt, in der Jahrhundertelf auf verlorenem Posten. „Ersatzgoalie„ Markus Lüthi, die „Blue-Chips-Fetischisten“ Gina+Bruno und die "New Entries" der letzten Sekunden.... „Rosa+Marlen“.....!
