@@ -22,6 +22,6 @@ Im Tor „bin i Radi bin i König“ Zeljko Berger. Hinten rechts “dä Koni“
 \
 In der Schaltzentrale „dä Chaschtä„ Spitzname „die Lunge“, der mit Knipserqualitäten glänzte, die man sich sonst von ihm nicht gewohnt war. Rechtes Mittelfeld „dä Vonki“, bei dem man nie weiss, wohin die Reise geht und im linken Mittelfeld „Sohnemann“ Christian, der anstelle des rotgesperrten „One-Hit-Wonder“ Zac kurzfristig in die Startelf rutschte.
 
-Von Dybala, Higuain und Ronaldo spricht heute keine „Sau“ mehr. Nach diesem „Feiertagsschmaus“ schreien die „Groupies“ zurecht  nach Dribbelkönig „Banquette„ Flankengott „ChFo“ und Tormaschine „Dog“, der in alter „Gerd Müller-Manier“ die Dinger versenkte.
+Von Dybala, Higuain und Ronaldo spricht heute keine „Sau“ mehr. Nach diesem „Festtagsschmaus“ schreien die „Groupies“ zurecht  nach Dribbelkönig „Banquette„ Flankengott „ChFo“ und Tormaschine „Dog“, der in alter „Gerd Müller-Manier“ die Dinger versenkte.
 
 Einziger Wermutstropfen der Partie: Schleifer „Pep“ liess „Fliegenfänger“ Markus Lüthi, „Nachwuchshoffnung“ Bruno Meier und die Überraschungsgäste der letzten Stunde „Rosa+Marlen“ 90 Minuten lang auf der Bank schmoren.
