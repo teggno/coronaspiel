@@ -1,6 +1,6 @@
 ---
 title: Top 14
-draft: false
+draft: true
 date: 2020-04-11T23:00:00.000Z
 players:
   s3: ChFo
@@ -20,8 +20,8 @@ Halbzeit! Das renommierte „Wallstreet-Journal“ hat sich die Mühe gemacht, a
 
 Im Tor „bin i Radi bin i König“ Zeljko Berger. Hinten rechts “dä Koni“, der noch einmal seine besten „Sturm- und Drangmomente“ aufblitzen liess. Im Abwehzentrum die „Berliner Mauer“ Wacker-Affentranger, die an alte “Beckenbauer-Schwarzenbeck-Zeiten“ erinnerte. Linker „Aussenback“ Tanino Liotta, der mit seinen unkonventionellen Vorstössen „à la Cabrini“ sogar die Mitspieler zur Verzweiflung brachte. \
 \
-In der Schaltzentrale „dä Chaschtä„ Spitzname „die Lunge“, der mit Knipserqualitäten glänzte, die man sonst von ihm nicht gewohnt war. Rechtes Mittelfeld Vonki (Peter von Känel), bei dem man nie weiss, wohin die Reise geht und im linken Mittelfeld „Sohnemann“ Christian, der die Partie zusammen mit dem rotgesperrten „One-Hit-Wonder“ Zac kurzfristig auf die Beine gestellt hat.
+In der Schaltzentrale „dä Chaschtä„ Spitzname „die Lunge“, der mit Knipserqualitäten glänzte, die man sich sonst von ihm nicht gewohnt war. Rechtes Mittelfeld „dä Vonki“, bei dem man nie weiss, wohin die Reise geht und im linken Mittelfeld „Sohnemann“ Christian, der anstelle des rotgesperrten „One-Hit-Wonder“ Zac kurzfristig in die Startelf rutschte.
 
-Den „Wundersturm“ darf man sich getrost auf der Zunge zergehen lassen. Dribbelkünstler „Banquette“, der auf dem linken „Couloir“ die Aussenlinie schwindlig spielte, „Rägäbogä-Unikat-Chfo“ der über rechts zu  seinen berüchtigten Bananenflanken ansetzte und vorne im Zentrum Finanz-Genie „Dog“, der im Stile eines Gerd Müller das Leder über die Linie "müllerte".
+Den „Wundersturm“ muss man sich auf der Zunge zergehen lassen. Dribbelkünstler „Banquette“, der im linken „Couloir“ die Aussenlinie schwindlig spielte, zusammen mit „Rägäbogä-Unikat-Chfo“ der rechts zu seinen berüchtigten Bananenflanken . Vorne im Zentrum im Stile eines Gerd Müller, Finanz-Genie „Dog“.
 
-In jeder Mannschaft auf dieser Welt gesetzt, in der Jahrhundertelf auf verlorenem Posten. „Ersatzgoalie„ Markus Lüthi, die „Blue-Chips-Fetischisten“ Gina+Bruno und die "New Entries" der letzten Sekunden.... „Rosa+Marlen“.....!
+Warum Bondscoach „Pep“ Ersatzgoalie Markus Lüthi, die „Blue-Chips-Fetischisten“ Gina+Bruno und das der letzten Se „Rosa+Marlen“.....!
