@@ -4,7 +4,7 @@ draft: false
 date: 2020-04-12T05:00:00.000Z
 players:
   s3: ChFo
-  ersatz: 'Markus Lüthi, Bruno+Gina,, Rosa+Marlen'
+  ersatz: 'Markus Lüthi, Bruno+Gina, Rosa+Marlen'
   m1: Christian
   m2: Chaschtä
   m3: Vonki
@@ -22,6 +22,6 @@ Im Tor „bin i Radi bin i König“ Zeljko Berger. Hinten rechts “dä Koni“
 \
 In der Schaltzentrale „dä Chaschtä„ Spitzname „die Lunge“, der mit Knipserqualitäten glänzte, die man sich sonst von ihm nicht gewohnt war. Rechtes Mittelfeld „dä Vonki“, bei dem man nie weiss, wohin die Reise geht und im linken Mittelfeld „Sohnemann“ Christian, der anstelle des rotgesperrten „One-Hit-Wonder“ Zac kurzfristig in die Startelf rutschte.
 
-Dybala-Higuain-Ronaldo war gestern. Heute schwärmen die Fans von Dribbelkönig „Banquette„ Flankengott „ChFo“ und Knipser „Dog“ der in alter „Gerd Müller-Manier“ die Dinger versenkt.
+Von Dybala, Higuain und Ronaldo spricht heute niemand mehr. Nach diesem „Feiertagsschmaus“ schwärmen die Fans zurecht von Dribbelkönig „Banquette„ Flankengott „ChFo“ und Knipser „Dog“ der in alter „Gerd Müller-Manier“ die Dinger versenkte.
 
-Einziger Wermutstropfen der Partie: Schleifer „Pep“ liess „Fliegenfänger“ Markus Lüthi, „Nachwuchshoffnung“ Bruno Meier und Überraschungsgast der letzten Stunde „Rosa+Marlen“ 90 Minuten lang auf der Bank schmoren.
+Einziger Wermutstropfen der Partie: Schleifer „Pep“ liess „Fliegenfänger“ Markus Lüthi, „Nachwuchshoffnung“ Bruno Meier und die Überraschungsgäste der letzten Stunde „Rosa+Marlen“ 90 Minuten lang auf der Bank schmoren.
