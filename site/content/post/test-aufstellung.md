@@ -18,3 +18,5 @@ players:
     ersatz: Hans, Fritz, Margrit
 ---
 Dies ist der Text des Artikels.
+
+https://sketch.io/render/sk-029aea8f1339f69f8539b9c309fdd256.jpeg
