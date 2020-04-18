@@ -2,6 +2,7 @@
 title: Höhen und Tiefen
 draft: true
 date: 2020-04-18T10:42:14.649Z
+image: img/a92505a9-df04-4218-b666-600d71ff487c.png
 ---
 Alle haben‘s geahnt - die Wenigsten haben reagiert. Die „Kaufen-Halten-Strategie“ und ihre Tücken. 5 Wochen haben genügt um beim SMI die Performance von 5 Jahren auszuradieren. Aktien soll man kaufen und jahrelang unters „Kopfkissen“ legen. So lautet das Mantra der Finanzanalysten. Wer diesen Rat befolgt hat und mit „CS“ 10 Jahre schlafen ging, sitzt auf Verlusten von 80%. Das es auch anders geht, beweist die Firma „Apple“! Wer dem Überflieger im Gründungsjahr 2002 10000 Dollar anvertraut hat, darf heute 3 Millionen\
 \
