@@ -1,5 +1,5 @@
 ---
-title: Das war's!
+title: Das war's
 draft: true
 date: 2020-04-17T16:59:28.140Z
 image: img/c80d7855-ccd3-4a38-a22f-837e87de72c2.jpeg
@@ -10,6 +10,4 @@ Es muss das Jahr der "Alten Dame" sein. Denn auch der Konsolations-Preis geht an
 
 Covid 19 hat vieles durcheinander gebracht. Das Jahrhundert-Ereignis Schweiz-Italien und die gesamte EM wurden gecancelt. Leidtragende sind die „Tifosi“, die am 12. Juli auf ihr Rendezvous am „Boulevard“ verzichten müssen. Schwamm drüber liebe “Connazionali“ nächstes Jahr am 11. Juli holen wir das „Stadtfest“ nach. 
 
-Börse ist nicht Fussball, das Kind im Manne kann nicht überschiessen.
-
- Trotzdem hat es mir Spass gemacht und euch hoffentlich auch.
+Statt dem runden Leder hinterherzujagen, haben wir uns einen Monat lang dem Mammon verschrieben. Mit der Wallstreet ins Bett, mit dem Nikkei aufgewacht und mit der Schweizer Hochfinanz durch den Tag geschlendert. Doch Hand auf's Herz, Börse ist nicht Fussball. Das Kind im Manne kann nicht überschiessen, die wahren Emotionen kommen nie hoch. Trotzdem hat es mir Spass gemacht und euch hoffentlich auch.
