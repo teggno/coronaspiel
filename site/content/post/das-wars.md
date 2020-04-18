@@ -8,7 +8,7 @@ Die letzten Lieder sind verklungen, die Börsenparty ist vorbei. Als Freddy Merc
 
 Es muss das Jahr der "Alten Dame" sein. Denn auch der Konsolations-Preis geht an eine eingefleischte "Juventina", die neuerdings ihre leckeren Speisen im „Bianconero-Dekor“ serviert. Liebe Stefania, nicht genug, dass auf dem Konto Ebbe herrscht, auch dein Göttergatte ist nach seinem riskanten "Vabanque-Spiel" ab über alle Berge. Ein Glück, dass sich wenigstens Agnetha, Anni-Frid, Benny und Björn deiner Erbarmen und mit "Waterloo" ein kleines Lächeln in dein Gesicht zaubern.
 
-Covid 19 hat vieles durcheinander gebracht. Das Jahrhundert-Ereignis Schweiz-Italien und die gesamte EM wurden gecancelt. Leidtragende sind die „Tifosi“, die am 12. Juli auf ihr Rendezvous am „Boulevard“ verzichten müssen. Schwamm drüber liebe Leidensgenossen nächstes Jahr am 11. Juli holen wir das „Stadtfest“ nach. 
+Covid 19 hat vieles durcheinander gebracht. Das Jahrhundert-Ereignis Schweiz-Italien und die gesamte EM wurden gecancelt. Leidtragende sind die „Tifosi“, die am 12. Juli auf ihr Rendezvous am „Boulevard“ verzichten müssen. Schwamm drüber liebe “Connazionali“ nächstes Jahr am 11. Juli holen wir das „Stadtfest“ nach. 
 
 Börse ist nicht Fussball, das Kind im Manne kann nicht überschiessen.
 
