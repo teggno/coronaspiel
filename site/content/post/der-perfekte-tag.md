@@ -2,6 +2,7 @@
 title: 'Der perfekte Tag '
 draft: true
 date: 2020-04-19T07:27:32.811Z
+image: img/13641342-407c-4d06-98a3-ba525f027cec_4_5005_c.jpeg
 ---
 Als "Zager & Evans" im Jahre 1969 mit ihrem einzigen Hit "In the year 2525" in den "Billboard-Charts" auf Platz 1 landeten, ahnten sie nicht, dass noch bevor ihr ominöses "2525" anbrechen würde, das Jahr "2020" auf dem "Speisezettel" stand. Laut späteren Überlieferungen passierten im Jahr von "Covid 19" die merkwürdigsten Dinge: Alle aufzuzählen ginge zu weit. Doch dieses eine hier verdient es in einem separaten Artikel erwähnt zu werden. 
 
