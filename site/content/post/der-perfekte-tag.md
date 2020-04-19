@@ -1,6 +1,6 @@
 ---
 title: 'Der perfekte Tag '
-draft: true
+draft: false
 date: 2020-04-19T07:27:32.811Z
 image: img/13641342-407c-4d06-98a3-ba525f027cec_4_5005_c.jpeg
 ---
