@@ -1,5 +1,5 @@
 ---
-title: Game over
+title: Kapitulation
 draft: true
 date: 2020-04-21T07:35:43.322Z
 ---
