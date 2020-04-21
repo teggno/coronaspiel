@@ -1,5 +1,5 @@
 ---
-title: Kapitulation
+title: Kapitulation...?
 draft: true
 date: 2020-04-21T07:35:43.322Z
 image: img/07ad1022-1f56-4f72-95a7-71c5157985e6_4_5005_c.jpeg
