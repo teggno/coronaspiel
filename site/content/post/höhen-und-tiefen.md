@@ -10,6 +10,6 @@ Grosse Unterschiede stellt man auch bei den SMI-Mitgliedern fest. Während die e
 \
 Fazit der Geschichte: Es gibt kein Patentrezept! Wer nicht bereit ist, zwischendurch mal 50% weniger auf dem Kontoauszug zu sehen, hat an der Börse nichts verloren. Gemäss Analysten sind es „nur“ Buchverluste. Sie können jedoch mit der Psyche und Lebensqualität des Anlegers einiges anstellen. Kaufe wenn Panik herrscht und verkaufe, wenn die "Hausfrauen" mit einer Investition liebäugeln. Dieser Satz gilt noch heute. Auch wenn es verdammt viel Nerven braucht, ihn in die Tat umzusetzen. 
 
-Nach einem Taucher von 40% in weniger als einem Monat, haben die Börsen im selben Tempo wieder nach oben gedreht und die Hälfte ihrer Verluste wettgemacht. Taktgeber ist und bleibt die Wallstreet. Euro-Stocks 50, Footsie, Dax und SMI "laufäd dä Musig hinädri". Ein Armutszeugnis! Ohne Amerika läuft gar nichts. 
+Nach einem Taucher von 40% in weniger als einem Monat, haben die Börsen im selben Tempo wieder nach oben gedreht und die Hälfte ihrer Verluste wettgemacht. Taktgeber ist und bleibt die Wallstreet. Euro-Stocks 50, Footsie, Dax und SMI "laufäd dä Musig hinädri". Ein Armutszeugnis! Ohne Amerika läuft nach wie vor gar nichts. 
 
 Gemäss Experten ist „Corona“ schlimmer als die Finanzkrise von 2007, doch an der Leitbörse liegen wir immer noch 50% höher als damals.  Blättert man bis ins viel zitierte Crash- und Depressionsjahr 1929 zurück, notiert der „Dow-Jones“ sage und schreibe 10‘000% im Plus. Da liegt noch eine Menge „Holz vor der Hütte“.
