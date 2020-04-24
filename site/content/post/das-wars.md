@@ -1,7 +1,7 @@
 ---
 title: Das war's
-draft: true
-date: 2020-04-24T16:59:00.000Z
+draft: false
+date: 2020-04-24T14:59:00.000Z
 image: img/c80d7855-ccd3-4a38-a22f-837e87de72c2.jpeg
 ---
 Die letzten Lieder sind verklungen, die Börsen-Party ist vorbei. Als Freddy Mercury mit seinen "Queen" auf der Bühne erschien und für die verdienten Sieger (Néstle-Novartis-Roche und Kudelski) sein leicht abgeändertes "You are the Champion" zum Besten gab, "isch dä Chaschtä" vor lauter Glückseligkeit "nümä z'brämsä gsi".  So hatte ich ihn letzmals nach Juve's Champions-League Erfolg erlebt und das ist immerhin schon 24 Jahre her. Liebe Nunzia, lieber Donato, ihr habt den Sieg verdient. Mit 3 "Seriösen" und einer "Leichtbeschürzten" habt ihr (fast) sämtliche Turbulenzen schadlos überstanden und das Geschehen über weite Strecken dominiert. Der verdiente Applaus der "Börsen-Familie" gehört euch. 
