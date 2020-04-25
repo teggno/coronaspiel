@@ -1,7 +1,7 @@
 ---
 title: Höhen und Tiefen
 draft: false
-date: 2020-04-18T10:42:14.649Z
+date: 2020-04-13T10:42:00.000Z
 image: img/a92505a9-df04-4218-b666-600d71ff487c.png
 ---
 Die „Kaufen-Halten-Strategie“ und ihre Tücken. Wenige Wochen haben genügt um die Performance von Jahren auszuradieren. Aktien soll man kaufen und jahrelang unters „Kopfkissen“ legen. So lautet das Mantra der Finanzanalysten. Wer diesen Rat befolgt hat und mit „CS“ zehn Jahre lang schlafen ging, sitzt auf Verlusten von 80%. Dass es auch anders geht, beweist die Firma „Apple“! Wer dem Überflieger im Gründungsjahr 2002 zehntausend Dollar anvertraut hatte, darf heute mit 3 Millionen auf Shopping-Tour gehen.\
